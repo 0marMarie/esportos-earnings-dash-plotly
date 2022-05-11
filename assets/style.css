@@ -1,0 +1,93 @@
+/* .header
+{
+    color: #333;
+} */
+
+body{
+    background-color: #fafafa;
+}
+
+#years-dropdown
+{
+    display: inline-grid;
+    width: 66%;
+}
+
+
+#genres-dropdown {
+    display: inline-grid;
+    width: 80%;
+}
+
+#games-dropdown{
+    display: inline-grid;
+    width: 100%;
+}
+
+
+/* .Select-control{
+    border: 0px solid #ccc;
+    border-bottom: 3px solid #333;
+    border-radius: 0;
+    outline:none !important;
+} */
+
+
+/* Cards */
+.total_card_color {
+    background-color: #EBF3FE;
+    transition: box-shadow .5s;
+    border: 0;
+}
+
+.total_card_color:hover {
+    box-shadow: 0 0 9px rgba(33, 33, 33, .2);
+    border: 2px solid #2151C5;
+}
+
+.big_decimal_total {
+    color: #2151C5;
+}
+
+.games_card_color {
+    background-color: #EBFEEE;
+    transition: box-shadow .5s;
+    border: 0;
+}
+
+.games_card_color:hover {
+    box-shadow: 0 0 9px rgba(33, 33, 33, .2);
+    border: 2px solid #5FC390;
+}
+
+.big_decimal_games {
+    color: #5FC390;
+}
+
+.genres_card_color {
+    background-color: #F8EAE3;
+    transition: box-shadow .5s;
+    border: 0;
+}
+
+.genres_card_color:hover {
+    box-shadow: 0 0 9px rgba(33, 33, 33, .2);
+    border: 2px solid #A63A50;
+}
+
+.big_decimal_genres {
+    color: #A63A50;
+}
+
+.font_size{
+    font-size: smaller;
+}
+
+.font_size_large{
+    font-size:xx-large;
+}
+
+.main-svg
+{
+    border-radius: 5px;
+}
